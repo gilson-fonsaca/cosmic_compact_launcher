@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.gitlab.gilsonfonsaca.compact-launcher</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  <name>Compact Launcher</name>
+  <summary>A small launcher like MacOS apps launcher</summary>
+  <icon type="remote" width="64" height="64" scale="1">
+    https://gitlab.com/gilson.fonsaca/water_reminder_cosmic.git/raw/main/resources/icons/hicolor/scalable/apps/icon.svg
+  </icon>
+  <url type="vcs-browser">https://gitlab.com/gilson.fonsaca/water_reminder_cosmic.git</url>
+  <launchable type="desktop-id">com.gitlab.gilsonfonsaca.compact-launcher.desktop</launchable>
+  <provides>
+    <id>com.gitlab.gilsonfonsaca.compact-launcher</id>
+    <binaries>
+      <binary>compact_launcher</binary>
+    </binaries>
+  </provides>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <categories>
+    <category>COSMIC</category>
+  </categories>
+  <keywords>
+    <keyword>COSMIC</keyword>
+  </keywords>
+  <content_rating type="oars-1.1" />
+</component>
+

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Compact Launcher
+Comment=A compact application launcher for the COSMIC Desktop
+Type=Application
+Icon=com.gitlab.gilsonfonsaca.compact-launcher
+Exec=compact_launcher %F
+Terminal=false
+StartupNotify=true
+Categories=COSMIC
+Keywords=COSMIC
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
+MimeType=
