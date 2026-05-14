@@ -4,18 +4,26 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MPL-2.0</project_license>
   <name>Compact Launcher</name>
-  <summary>A small launcher like MacOS apps launcher</summary>
-  <icon type="remote" width="64" height="64" scale="1">
-    https://gitlab.com/gilson.fonsaca/water_reminder_cosmic.git/raw/main/resources/icons/hicolor/scalable/apps/icon.svg
-  </icon>
-  <url type="vcs-browser">https://gitlab.com/gilson.fonsaca/water_reminder_cosmic.git</url>
+  <summary>A compact application launcher for the COSMIC Desktop panel</summary>
+  <description>
+    <p>An application launcher for the COSMIC Desktop panel that emulates the grid-style launcher from macOS, allowing quick access to installed applications from a compact panel button.</p>
+  </description>
+  <icon type="stock">com.gitlab.gilsonfonsaca.compact-launcher</icon>
+  <url type="homepage">https://gitlab.com/gilson.fonsaca/compact-launcher</url>
+  <url type="vcs-browser">https://gitlab.com/gilson.fonsaca/compact-launcher</url>
+  <url type="bugtracker">https://gitlab.com/gilson.fonsaca/compact-launcher/-/issues</url>
   <launchable type="desktop-id">com.gitlab.gilsonfonsaca.compact-launcher.desktop</launchable>
   <provides>
     <id>com.gitlab.gilsonfonsaca.compact-launcher</id>
-    <binaries>
-      <binary>compact_launcher</binary>
-    </binaries>
+    <binary>compact_launcher</binary>
   </provides>
+  <releases>
+    <release version="0.1.0" date="2025-01-01">
+      <description>
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
@@ -25,11 +33,13 @@
     <control>touch</control>
   </supports>
   <categories>
-    <category>COSMIC</category>
+    <category>Utility</category>
   </categories>
   <keywords>
     <keyword>COSMIC</keyword>
+    <keyword>launcher</keyword>
+    <keyword>panel</keyword>
+    <keyword>applet</keyword>
   </keywords>
   <content_rating type="oars-1.1" />
 </component>
-

@@ -2,12 +2,6 @@
 
 A small launcher like MacOS apps launcher
 
-## Support
-
-If this applet helps you, consider buying me a coffee:
-
-[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/Gilsonf)
-
 ## Installation
 
 A [justfile](./justfile) is included by default for the [casey/just][just] command runner.
@@ -48,4 +42,3 @@ Developers should install [rustup][rustup] and configure their editor to use [ru
 [rust-analyzer]: https://rust-analyzer.github.io/
 [mold]: https://github.com/rui314/mold
 [sccache]: https://github.com/mozilla/sccache
-

@@ -19,7 +19,7 @@ icon-svg := appid + '.svg'
 
 # Install destinations
 base-dir := absolute_path(clean(rootdir / prefix))
-appdata-dst := base-dir / 'share' / 'appdata' / appdata
+appdata-dst := base-dir / 'share' / 'metainfo' / appdata
 bin-dst := base-dir / 'bin' / name
 desktop-dst := base-dir / 'share' / 'applications' / desktop
 icon-dst := base-dir / 'share' / 'icons' / 'hicolor' / 'scalable' / 'apps' / icon-svg
@@ -65,6 +65,7 @@ install:
     install -Dm0644 resources/app.desktop {{desktop-dst}}
     install -Dm0644 resources/app.metainfo.xml {{appdata-dst}}
     install -Dm0644 resources/icons/hicolor/scalable/apps/icon.svg {{icon-dst}}
+    -gtk-update-icon-cache -qtf {{base-dir}}/share/icons/hicolor 2>/dev/null || true
 
 # Uninstalls installed files
 uninstall:
