@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Gilson Fonsaca -->
 <component type="desktop-application">
-  <id>com.gitlab.gilsonfonsaca.compact-launcher</id>
+  <id>io.github.gilson_fonsaca.cosmic_compact_launcher</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MPL-2.0</project_license>
   <name>Compact Launcher</name>
@@ -8,15 +9,32 @@
   <description>
     <p>An application launcher for the COSMIC Desktop panel that emulates the grid-style launcher from macOS, allowing quick access to installed applications from a compact panel button.</p>
   </description>
-  <icon type="stock">com.gitlab.gilsonfonsaca.compact-launcher</icon>
-  <url type="homepage">https://gitlab.com/gilson.fonsaca/compact-launcher</url>
-  <url type="vcs-browser">https://gitlab.com/gilson.fonsaca/compact-launcher</url>
-  <url type="bugtracker">https://gitlab.com/gilson.fonsaca/compact-launcher/-/issues</url>
-  <launchable type="desktop-id">com.gitlab.gilsonfonsaca.compact-launcher.desktop</launchable>
+  <developer id="io.github.gilson_fonsaca">
+    <name>Gilson Fonsaca</name>
+  </developer>
+  <icon type="stock">io.github.gilson_fonsaca.cosmic_compact_launcher</icon>
+  <url type="homepage">https://github.com/gilson-fonsaca/cosmic_compact_launcher</url>
+  <url type="vcs-browser">https://github.com/gilson-fonsaca/cosmic_compact_launcher</url>
+  <url type="bugtracker">https://github.com/gilson-fonsaca/cosmic_compact_launcher/issues</url>
+  <launchable type="desktop-id">io.github.gilson_fonsaca.cosmic_compact_launcher.desktop</launchable>
   <provides>
-    <id>com.gitlab.gilsonfonsaca.compact-launcher</id>
+    <id>io.github.gilson_fonsaca.cosmic_compact_launcher</id>
     <binary>compact_launcher</binary>
   </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/gilson-fonsaca/cosmic_compact_launcher/master/screen_capture_1.jpg</image>
+      <caption>Grid-style application launcher for COSMIC panel.</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/gilson-fonsaca/cosmic_compact_launcher/master/screen_capture_2.png</image>
+      <caption>Settings panel to customize tiles, icons and layout.</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/gilson-fonsaca/cosmic_compact_launcher/master/screen_capture_3.png</image>
+      <caption>Hiding applications from the grid view using filters.</caption>
+    </screenshot>
+  </screenshots>
   <releases>
     <release version="0.1.0" date="2025-01-01">
       <description>

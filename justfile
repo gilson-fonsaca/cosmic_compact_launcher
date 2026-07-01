@@ -1,7 +1,7 @@
 # Name of the application's binary.
 name := 'compact_launcher'
 # The unique ID of the application.
-appid := 'com.gitlab.gilsonfonsaca.compact-launcher'
+appid := 'io.github.gilson_fonsaca.cosmic_compact_launcher'
 
 # Path to root file system, which defaults to `/`.
 rootdir := ''

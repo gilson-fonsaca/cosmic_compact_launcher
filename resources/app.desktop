@@ -2,7 +2,7 @@
 Name=Compact Launcher
 Comment=A compact application launcher for the COSMIC Desktop
 Type=Application
-Icon=com.gitlab.gilsonfonsaca.compact-launcher
+Icon=io.github.gilson_fonsaca.cosmic_compact_launcher
 Exec=compact_launcher %F
 Terminal=false
 StartupNotify=true

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 license = "MPL-2.0"
 description = "A compact app launcher for the COSMIC Desktop"
-repository = "https://gitlab.com/gilson.fonsaca/water_reminder_cosmic.git"
+repository = "https://github.com/gilson-fonsaca/cosmic_compact_launcher.git"
 
 [dependencies]
 i18n-embed = { version = "0.16", features = [

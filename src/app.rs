@@ -96,7 +96,7 @@ impl cosmic::Application for AppModel {
     type Flags = ();
     type Message = Message;
 
-    const APP_ID: &'static str = "com.gitlab.gilsonfonsaca.compact-launcher";
+    const APP_ID: &'static str = "io.github.gilson_fonsaca.cosmic_compact_launcher";
 
     fn core(&self) -> &cosmic::Core {
         &self.core
@@ -149,7 +149,7 @@ impl cosmic::Application for AppModel {
         self.core
             .applet
             .icon_button_from_handle(
-                widget::icon::from_name("com.gitlab.gilsonfonsaca.compact-launcher")
+                widget::icon::from_name("io.github.gilson_fonsaca.cosmic_compact_launcher")
                     .symbolic(false)
                     .size(suggested.0)
                     .into(),
